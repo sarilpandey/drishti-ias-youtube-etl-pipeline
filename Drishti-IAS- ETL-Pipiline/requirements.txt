@@ -1,5 +1,0 @@
-apache-airflow==2.7.0
-pandas
-boto3
-google-api-python-client
-python-dotenv
