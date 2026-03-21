@@ -216,6 +216,3 @@ data/processed/history.csv
 
 ---
 
-## 👨‍💻 Author
-
-Saril Pandey
