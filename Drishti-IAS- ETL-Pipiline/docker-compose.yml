@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  airflow:
+    image: apache/airflow:2.7.0
+
+    ports:
+      - "8080:8080"
+
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./scripts:/opt/airflow/scripts
+      - ./data:/opt/airflow/data
+
+    env_file:
+      - .env
+
+    environment:
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      - _PIP_ADDITIONAL_REQUIREMENTS=pandas boto3 google-api-python-client python-dotenv
+
+    command: standalone
