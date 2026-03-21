@@ -214,10 +214,6 @@ data/processed/history.csv
 
 ---
 
-## 💼 Resume Line
-
-Built an end-to-end ETL pipeline using Apache Airflow and Docker to extract, transform, and load YouTube data into AWS S3, enabling analytics and visualization in Power BI.
-
 ---
 
 ## 👨‍💻 Author
