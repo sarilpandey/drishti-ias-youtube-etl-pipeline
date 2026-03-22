@@ -72,12 +72,13 @@ drishti-ias-etl-pipeline/
 
 Create `.env` file:
 
+```
 YOUTUBE_API_KEY=your_api_key
 AWS_ACCESS_KEY_ID=your_key
 AWS_SECRET_ACCESS_KEY=your_secret
 AWS_DEFAULT_REGION=ap-south-1
 S3_BUCKET_NAME=your_bucket
-
+```
 
 ---
 
