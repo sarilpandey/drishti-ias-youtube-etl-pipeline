@@ -44,6 +44,7 @@ YouTube API → Airflow → Extract → Transform → AWS S3 → Power BI
 
 ## 📁 Project Structure
 
+```
 drishti-ias-etl-pipeline/
 │
 ├── dags/
@@ -61,7 +62,8 @@ drishti-ias-etl-pipeline/
 ├── requirements.txt
 ├── .env
 ├── .gitignore
-└── README.m
+└── README.md
+```
 
 
 ---
