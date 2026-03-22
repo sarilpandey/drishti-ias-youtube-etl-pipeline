@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 API_KEY = os.getenv("AIzaSyC-KkJoAW1PhEiRz26HC9qMU2YsYm9k0uE")
-CHANNEL_ID = "YOUTUBE_API_KE"
+CHANNEL_ID = "YOUTUBE_API_KEY"
 
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
