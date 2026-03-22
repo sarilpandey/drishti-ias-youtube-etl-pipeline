@@ -49,19 +49,19 @@ drishti-ias-etl-pipeline/
 ├── dags/
 ├── scripts/
 ├── data/
-│ ├── raw/
-│ └── processed/
+│   ├── raw/
+│   └── processed/
 ├── screenshots/
-│ ├── architecture.png
-│ ├── airflow_dag.png
-│ ├── graph_view.png
-│ ├── csv_output.png
-│ └── powerbi_dashboard.png
+│   ├── architecture.png
+│   ├── airflow_dag.png
+│   ├── graph_view.png
+│   ├── csv_output.png
+│   └── powerbi_dashboard.png
 ├── docker-compose.yml
 ├── requirements.txt
 ├── .env
 ├── .gitignore
-└── README.md
+└── README.m
 
 
 ---
